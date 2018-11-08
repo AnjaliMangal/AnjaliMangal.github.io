@@ -1,0 +1,81 @@
+body {
+    background: #E3E3E3;
+  }
+  #container-white {
+    background: white;
+  }
+  
+  .box{
+    padding: 10px;
+    background: white;
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+  }
+  
+  .navbar {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+    background: white;
+  }
+
+  .navbar-brand {
+   color: white;
+   font-family: verdana;
+   font-size: 50px;
+   background-color:#2DBFB0;
+   border: black;
+   }
+  
+  .navbar li {
+    display: d-block;
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  h1 {
+    font-size: 35px;
+    color: #2DBFB0
+  }
+  .comparison-title {
+    font-size: 25px;
+    color: #2DBFB0
+  }
+  h2 {
+    font-size: 22px;
+  }
+  
+  p{
+      font-size: 16px;
+      font-family: verdana
+  }
+  
+  .main-image{
+      width: 400px;
+      height: 320px;
+  }
+  .c-d{color:white;
+    font-size: 30px;
+  }
+  
+  @media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+    .box {
+      margin-right: 22px;
+      margin-left: 22px;
+    }
+    .navbar ul {
+      visibility: hidden;
+    }
+    #nav-select {
+      visibility: visible;
+    }
+  }
+  
